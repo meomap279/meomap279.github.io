@@ -4,21 +4,6 @@
     box-sizing: border-box;
 }
 
-#cde {
-    margin-left: 0;
-    text-align: center;
-    padding-top: 20px;
-}
-
-#edf {
-    margin-top: 20px;
-}
-
-#cde img {
-    padding-top: 10px;
-    width: 60%;
-}
-
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
@@ -32,15 +17,19 @@ header {
 h1 {
     font-size: 1.8rem;
     text-shadow: 2px 7px 5px rgb(15, 11, 255), 0px -4px 10px rgb(209, 241, 183);
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 h2 {
     font-size: 1.7rem;
-    text-shadow: 2px 7px 5px rgb(15, 11, 255), 0px -4px 10px rgb(209, 241, 183);
 }
 
 h3 {
     font-size: 1.5rem;
+    margin-top: 25px;
+    text-shadow: 2px 7px 5px rgb(15, 11, 255), 0px -4px 10px rgb(209, 241, 183);
 }
 
 h4 {
@@ -55,15 +44,10 @@ h6 {
     font-size: 0.25rem;
 }
 
-img {
-    max-width: 90%;
-}
-
 .logo {
     display: block;
     float: left;
     padding-left: 30px;
-    width: 200px;
     margin-top: 1.5px;
     top: 5px;
 }
@@ -112,89 +96,11 @@ ul li>a:hover {
     color: #ffb300;
 }
 
-video {
-    width: 1050px;
-    height: 500px;
-    margin-top: 58px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-main {
-    padding: 30px 20px 40px 20px;
+main,
+footer {
+    padding: 70px 20px 40px 20px;
     width: 1200px;
     margin: auto;
-}
-
-footer {
-    padding: 10px 20px 10px 20px;
-    margin: auto;
-    color: black;
-}
-
-.flex-container {
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-
-.flex-container>img {
-    width: 30%;
-    padding: 10px 12px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-main section h1 {
-    padding-top: 0;
-}
-
-section article p {
-    padding-top: 20px;
-}
-
-ul {
-    display: inline;
-}
-
-ul>li {
-    display: flex;
-}
-
-#abc {
-    display: flex;
-    color: white;
-    padding-top: 20px;
-    margin: 10px;
-}
-
-#abc h2 {
-    text-align: center;
-    margin-top: 10px;
-}
-
-#abc img {
-    width: 400px;
-    padding-top: 10px;
-    height: 320px;
-}
-
-#abc h1 {
-    padding-top: 250px;
-    padding-right: 19px;
-}
-
-article img {
-    width: 420px;
-}
-
-article img {
-    width: 500px;
-}
-
-span h2 {
-    margin-top: 20px;
 }
 
 .grid-container {
@@ -214,7 +120,7 @@ span h2 {
 
 .course img {
     padding-top: 15px;
-    width: 100%;
+    width: 98%;
     height: 90%;
 }
 
@@ -225,9 +131,26 @@ span h2 {
     background-color: #eaebec;
 }
 
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .course p {
     margin-top: 10px;
     font-weight: bold;
     font-size: 20px;
-    color: black;
+}
+
+footer {
+    float: left;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+}
+
+article>img {
+    width: 74.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12%;
 }
